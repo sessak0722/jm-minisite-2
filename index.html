@@ -7,73 +7,89 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
+      padding: 40px 20px;
+      background-color: #fff;
+      color: #111;
     }
     h1 {
+      text-align: center;
       font-size: 2em;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
+    .link-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
-    li {
-      margin: 10px 0;
-    }
-    a {
+    .link-grid a {
       text-decoration: none;
       color: #0070f3;
-      font-size: 1.2em;
+      font-size: 1em;
+      padding: 6px 12px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      transition: all 0.2s ease;
+      white-space: nowrap;
     }
-    a:hover {
-      text-decoration: underline;
+    .link-grid a:hover {
+      background-color: #e6f3ff;
+      border-color: #0070f3;
+    }
+
+    @media (max-width: 600px) {
+      .link-grid a {
+        font-size: 0.9em;
+        padding: 5px 10px;
+      }
     }
   </style>
 </head>
 <body>
   <h1>sunny의 상품</h1>
-  <ul>
-    <li><a href="https://smartstore.naver.com/shs2731/products/12144762705" target="_blank">사다리_2단</a></li>
-    <li><a href="https://smartstore.naver.com/shs2731/products/12144762706" target="_blank">사다리_3단</a></li>
-    <li><a href="https://smartstore.naver.com/shs2731/products/12144762707" target="_blank">사다리_4단</a></li>
-    <li><a href="https://smartstore.naver.com/maxy/products/11368542604" target="_blank">공구세트_11368542604</a></li>
-    <li><a href="https://smartstore.naver.com/maxy/products/11368542713" target="_blank">공구세트_11368542713</a></li>
-    <li><a href="https://smartstore.naver.com/maxy/products/11368552932" target="_blank">공구세트_11368552932</a></li>
-    <li><a href="https://smartstore.naver.com/maxy/products/11550514034" target="_blank">공구세트_11550514034</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048428138" target="_blank">공구세트_12048428138</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048428057" target="_blank">공구세트_12048428057</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427961" target="_blank">공구세트_12048427961</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427878" target="_blank">공구세트_12048427878</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427805" target="_blank">공구세트_12048427805</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427719" target="_blank">공구세트_12048427719</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427650" target="_blank">공구세트_12048427650</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427576" target="_blank">공구세트_12048427576</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427358" target="_blank">공구세트_12048427358</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427204" target="_blank">공구세트_12048427204</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427120" target="_blank">공구세트_12048427120</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048427015" target="_blank">공구세트_12048427015</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426945" target="_blank">공구세트_12048426945</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426859" target="_blank">공구세트_12048426859</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426784" target="_blank">공구세트_12048426784</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426693" target="_blank">공구세트_12048426693</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426570" target="_blank">공구세트_12048426570</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426498" target="_blank">공구세트_12048426498</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426399" target="_blank">공구세트_12048426399</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426310" target="_blank">공구세트_12048426310</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426167" target="_blank">공구세트_12048426167</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048426054" target="_blank">공구세트_12048426054</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425931" target="_blank">공구세트_12048425931</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425782" target="_blank">공구세트_12048425782</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425696" target="_blank">공구세트_12048425696</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425623" target="_blank">공구세트_12048425623</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425501" target="_blank">공구세트_12048425501</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425418" target="_blank">공구세트_12048425418</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425361" target="_blank">공구세트_12048425361</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425241" target="_blank">공구세트_12048425241</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425150" target="_blank">공구세트_12048425150</a></li>
-    <li><a href="https://smartstore.naver.com/health2970/products/12048425032" target="_blank">공구세트_12048425032</a></li>
-
-  </ul>
+  <div class="link-grid">
+    <a href="https://smartstore.naver.com/shs2731/products/12144762705" target="_blank">사다리_2단</a>
+    <a href="https://smartstore.naver.com/shs2731/products/12144762706" target="_blank">사다리_3단</a>
+    <a href="https://smartstore.naver.com/shs2731/products/12144762707" target="_blank">사다리_4단</a>
+    <a href="https://smartstore.naver.com/maxy/products/11368542604" target="_blank">공구세트_11368542604</a>
+    <a href="https://smartstore.naver.com/maxy/products/11368542713" target="_blank">공구세트_11368542713</a>
+    <a href="https://smartstore.naver.com/maxy/products/11368552932" target="_blank">공구세트_11368552932</a>
+    <a href="https://smartstore.naver.com/maxy/products/11550514034" target="_blank">공구세트_11550514034</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048428138" target="_blank">공구세트_12048428138</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048428057" target="_blank">공구세트_12048428057</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427961" target="_blank">공구세트_12048427961</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427878" target="_blank">공구세트_12048427878</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427805" target="_blank">공구세트_12048427805</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427719" target="_blank">공구세트_12048427719</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427650" target="_blank">공구세트_12048427650</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427576" target="_blank">공구세트_12048427576</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427358" target="_blank">공구세트_12048427358</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427204" target="_blank">공구세트_12048427204</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427120" target="_blank">공구세트_12048427120</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048427015" target="_blank">공구세트_12048427015</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426945" target="_blank">공구세트_12048426945</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426859" target="_blank">공구세트_12048426859</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426784" target="_blank">공구세트_12048426784</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426693" target="_blank">공구세트_12048426693</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426570" target="_blank">공구세트_12048426570</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426498" target="_blank">공구세트_12048426498</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426399" target="_blank">공구세트_12048426399</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426310" target="_blank">공구세트_12048426310</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426167" target="_blank">공구세트_12048426167</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048426054" target="_blank">공구세트_12048426054</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425931" target="_blank">공구세트_12048425931</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425782" target="_blank">공구세트_12048425782</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425696" target="_blank">공구세트_12048425696</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425623" target="_blank">공구세트_12048425623</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425501" target="_blank">공구세트_12048425501</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425418" target="_blank">공구세트_12048425418</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425361" target="_blank">공구세트_12048425361</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425241" target="_blank">공구세트_12048425241</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425150" target="_blank">공구세트_12048425150</a>
+    <a href="https://smartstore.naver.com/health2970/products/12048425032" target="_blank">공구세트_12048425032</a>
+  </div>
 </body>
 </html>
